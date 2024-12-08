@@ -21,5 +21,8 @@ Our project is a Chatbot system, That is created to address all the queries for 
 ## Run Instructions 
 1. Clone the repository using Git.
 2. Install all the required dependencies using pip.
-3. Configure the database connection using the provided configuration file.
+3. Install Nltk, numpy, tesorflow, pandas.
 4. Run the chatbot using the provided script.
+5. Make streamlit which is in src the current repository.
+6. Run the streamlit app using the command streamlit run app.py.
+7. The chatbot will be up and running, and you can interact with it using the provided.

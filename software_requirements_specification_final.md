@@ -163,6 +163,6 @@ Below are the system's quality and performance requirements.
 | AD5          | Admin Report Workflow        | NFR21, NFR22                      |
 
 ## Project Artifacts
-- [Midterm SRS](https://github.com/your-repo-link/midterm_srs.md)
+- [Midterm SRS](https://github.com/RuthvikUppala30/GVSU-CIS641-Synergy/blob/main/docs/Requirement_Specification_Document.md)
 - [Diagrams Folder](https://github.com/your-repo-link/diagrams)
 - [Final SRS](https://github.com/your-repo-link/software_requirements_specification_final.md)
