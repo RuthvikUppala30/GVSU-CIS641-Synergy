@@ -1,0 +1,611 @@
+{
+   "intents": [
+      {
+         "tag": "greeting",
+         "patterns": [
+            "Hi",
+            "Hello",
+            "How are you?",
+            "Is anyone there?",
+            "Good day",
+            "What's up?",
+            "Hey",
+            "Hi there"
+         ],
+         "responses": [
+            "Hello! How can I assist you with information about GVSU?",
+            "Hi there! Welcome to Grand Valley State University. How can I help?"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "goodbye",
+         "patterns": [
+            "Goodbye",
+            "See you later",
+            "Bye",
+            "Talk to you later",
+            "I have to go"
+         ],
+         "responses": [
+            "Goodbye! Have a great day!",
+            "Take care! Let me know if you need more information about GVSU."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "creator",
+         "patterns": [
+            "Who created you?",
+            "Who designed you?",
+            "Who are your developers?",
+            "Who made this chatbot?"
+         ],
+         "responses": [
+            "I was developed by a dedicated team at Grand Valley State University to assist students and visitors with their queries."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "name",
+         "patterns": [
+            "What is your name?",
+            "Do you have a name?",
+            "What are you called?",
+            "What should I call you?"
+         ],
+         "responses": [
+            "You can call me the GVSU Assistant.",
+            "I'm the official chatbot for Grand Valley State University."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "hours",
+         "patterns": [
+            "What are GVSU's operating hours?",
+            "When is the university open?",
+            "GVSU working hours",
+            "Are you open on weekends?"
+         ],
+         "responses": [
+            "GVSU's administrative offices are typically open from 8:00 AM to 5:00 PM, Monday through Friday. For specific department hours, visit: <a target=\"_blank\" href=\"https://www.gvsu.edu\">GVSU Hours</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "number",
+         "patterns": [
+            "How can I contact GVSU?",
+            "What is GVSU's phone number?",
+            "Contact information for GVSU",
+            "Phone number for the university"
+         ],
+         "responses": [
+            "You can contact GVSU at (616) 331-5000. For more details, visit: <a target=\"_blank\" href=\"https://www.gvsu.edu/contactus/\">Contact GVSU</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "course",
+         "patterns": [
+            "What courses are offered at GVSU?",
+            "Programs at GVSU",
+            "List of majors and programs",
+            "What can I study at GVSU?"
+         ],
+         "responses": [
+            "GVSU offers a wide range of undergraduate and graduate programs. View the full list here: <a target=\"_blank\" href=\"https://www.gvsu.edu/academics/\">GVSU Academic Programs</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "fees",
+         "patterns": [
+            "What are the tuition fees at GVSU?",
+            "How much does GVSU cost?",
+            "Tuition and fees for GVSU",
+            "Cost of attendance at GVSU"
+         ],
+         "responses": [
+            "For detailed information about tuition and fees, visit: <a target=\"_blank\" href=\"https://www.gvsu.edu/financialaid/costs-and-tuition-85.htm\">GVSU Tuition and Fees</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "location",
+         "patterns": [
+            "Where is GVSU located?",
+            "What is the address of the university?",
+            "How do I reach GVSU?",
+            "GVSU address"
+         ],
+         "responses": [
+            "GVSU's main campus is located at 1 Campus Dr, Allendale, MI 49401, USA. View the location on Google Maps: <a target=\"_blank\" href=\"https://www.google.com/maps?q=Grand+Valley+State+University\">here</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "hostel",
+         "patterns": [
+            "Does GVSU provide housing?",
+            "On-campus accommodation",
+            "Housing options at GVSU",
+            "Dorms at GVSU"
+         ],
+         "responses": [
+            "Yes, GVSU offers a variety of on-campus housing options for students. Learn more here: <a target=\"_blank\" href=\"https://www.gvsu.edu/housing/\">GVSU Housing</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "event",
+         "patterns": [
+            "What events happen at GVSU?",
+            "Upcoming events at GVSU",
+            "List of events",
+            "Does GVSU have any activities?"
+         ],
+         "responses": [
+            "GVSU hosts many events throughout the year. Check the event calendar here: <a target=\"_blank\" href=\"https://www.gvsu.edu/events/\">GVSU Events</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "library",
+         "patterns": [
+            "Does GVSU have a library?",
+            "Library hours",
+            "Library services at GVSU",
+            "Where is the library?"
+         ],
+         "responses": [
+            "GVSU has multiple libraries with extensive resources. Visit: <a target=\"_blank\" href=\"https://www.gvsu.edu/library/\">GVSU Libraries</a> for more details."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "uniform",
+         "patterns": [
+            "What is the dress code at GVSU?",
+            "Does GVSU have uniforms?",
+            "Can students wear casuals?"
+         ],
+         "responses": [
+            "GVSU does not have a mandatory uniform policy, but students are encouraged to dress appropriately for academic and professional settings."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "sports",
+         "patterns": [
+            "What sports are available at GVSU?",
+            "Athletics at GVSU",
+            "Sports facilities at GVSU",
+            "Can I join sports teams?"
+         ],
+         "responses": [
+            "GVSU offers a wide range of sports and recreational activities. Learn more: <a target=\"_blank\" href=\"https://gvsulakers.com/\">GVSU Athletics</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "task",
+         "patterns": [
+            "What can you do?",
+            "How can you help me?",
+            "What services do you provide?",
+            "Why should I use you?"
+         ],
+         "responses": [
+            "I can assist you with queries about GVSU, including admissions, courses, events, and facilities. How can I help you today?"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "syllabus",
+         "patterns": [
+            "Syllabus for IT",
+            "What is the Information Technology syllabus?",
+            "syllabus",
+            "Timetable",
+            "What is IT syllabus?",
+            "syllabus",
+            "What is next lecture?",
+            "Where can I find course outlines?"
+         ],
+         "responses": [
+            "You can view the syllabus and course outlines on our academic portal: <a target=\"_blank\" href=\"https://www.gvsu.edu/catalog/\">here</a>. For timetables, please visit <a target=\"_blank\" href=\"https://www.gvsu.edu/schedule/\">class schedule</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "library",
+         "patterns": [
+            "Is there any library?",
+            "Library facility",
+            "Library facilities",
+            "Do you have a library?",
+            "Does the college have library facilities?",
+            "College library",
+            "Where can I get books?",
+            "Book facility",
+            "Where is the library?",
+            "Library",
+            "Library information",
+            "Library books information",
+            "Tell me about the library",
+            "How many libraries?"
+         ],
+         "responses": [
+            "GVSU offers extensive library facilities, including physical and digital resources. The library is open from 8 AM to 8 PM. Learn more about library services and resources here: <a target=\"_blank\" href=\"https://www.gvsu.edu/library/\">GVSU Library</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "infrastructure",
+         "patterns": [
+            "How is college infrastructure?",
+            "Infrastructure",
+            "College infrastructure",
+            "Campus facilities"
+         ],
+         "responses": [
+            "GVSU boasts modern infrastructure, including smart classrooms, state-of-the-art labs, high-speed internet, spacious libraries, and recreational areas. Explore the facilities here: <a target=\"_blank\" href=\"https://www.gvsu.edu/aboutgvsu/\">About GVSU</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "canteen",
+         "patterns": [
+            "Food facilities",
+            "Canteen facilities",
+            "Canteen facility",
+            "Is there any canteen?",
+            "Is there a cafeteria in college?",
+            "Does college have a canteen?",
+            "Where is the canteen?",
+            "Where is the cafeteria?",
+            "Canteen",
+            "Food",
+            "Cafeteria"
+         ],
+         "responses": [
+            "GVSU has multiple dining options catering to a variety of dietary needs. Check out our dining services and menus here: <a target=\"_blank\" href=\"https://www.gvsu.edu/dining/\">Dining Services</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "menu",
+         "patterns": [
+            "Food menu",
+            "Food in canteen",
+            "What's there on the menu?",
+            "What is available in the college canteen?",
+            "What foods can we get in the college canteen?",
+            "Food variety",
+            "What is there to eat?"
+         ],
+         "responses": [
+            "Our dining services offer a range of meals, including vegetarian, non-vegetarian, and vegan options. Check out the daily menu here: <a target=\"_blank\" href=\"https://www.gvsu.edu/dining/menus.htm\">Dining Menus</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "uniform",
+         "patterns": [
+            "College dress code",
+            "College dress code policy",
+            "What is the uniform?",
+            "Can we wear casuals?",
+            "Does college have a uniform?",
+            "Is there any uniform?",
+            "Uniform",
+            "What about uniform?",
+            "Do we have to wear a uniform?"
+         ],
+         "responses": [
+            "GVSU does not have a mandatory uniform policy, but students are encouraged to dress professionally for academic and formal settings. Learn more about student policies here: <a target=\"_blank\" href=\"https://www.gvsu.edu/studentcode/\">Student Code</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "committee",
+         "patterns": [
+            "What are the different committees in college?",
+            "Different committees in college",
+            "Are there any committees in college?",
+            "Give me committee details",
+            "Committee",
+            "How many committees are there in college?"
+         ],
+         "responses": [
+            "GVSU has several active committees, including the Academic Senate, Student Senate, and Sports Committees. To learn more, visit: <a target=\"_blank\" href=\"https://www.gvsu.edu/committees/\">GVSU Committees</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "random",
+         "patterns": [
+            "I love you",
+            "Will you marry me?",
+            "Do you love me?"
+         ],
+         "responses": [
+            "I am here to assist you with university-related queries. Please ask an appropriate question!"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "swear",
+         "patterns": [
+            "fuck",
+            "bitch",
+            "shut up",
+            "hell",
+            "stupid",
+            "idiot",
+            "dumb ass",
+            "asshole",
+            "fucker"
+         ],
+         "responses": [
+            "Please use respectful language.",
+            "Kindly maintain a professional tone."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "vacation",
+         "patterns": [
+            "Holidays",
+            "When will semester start?",
+            "When will semester end?",
+            "When are the holidays?",
+            "List of holidays",
+            "Holiday in this year",
+            "Holiday list",
+            "About vacations",
+            "About holidays",
+            "When is vacation?",
+            "When are holidays?",
+            "How long will the vacation be?"
+         ],
+         "responses": [
+            "The academic calendar, including holidays, can be accessed here: <a target=\"_blank\" href=\"https://www.gvsu.edu/registrar/academic-calendar-68.htm\">Academic Calendar</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "sports",
+         "patterns": [
+            "Sports and games",
+            "Give sports details",
+            "Sports infrastructure",
+            "Sports facilities",
+            "Information about sports",
+            "Sports activities",
+            "Please provide sports and games information"
+         ],
+         "responses": [
+            "GVSU promotes sports and recreational activities with excellent facilities for basketball, football, and more. For details, visit: <a target=\"_blank\" href=\"https://gvsulakers.com/\">GVSU Sports</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "salutation",
+         "patterns": [
+            "okk",
+            "okie",
+            "nice work",
+            "well done",
+            "good job",
+            "thanks for the help",
+            "Thank You",
+            "it's ok",
+            "Thanks",
+            "Good work",
+            "k",
+            "ok",
+            "okay"
+         ],
+         "responses": [
+            "I'm glad I could help!",
+            "You're welcome! Let me know if there's anything else I can assist with."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "task",
+         "patterns": [
+            "What can you do?",
+            "What are the things you can do?",
+            "Things you can do",
+            "What can you do for me?",
+            "How can you help me?",
+            "Why should I use you?"
+         ],
+         "responses": [
+            "I can assist you with queries about GVSU, including admissions, facilities, events, and academic programs. How can I help you today?"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "ragging",
+         "patterns": [
+            "Ragging",
+            "Is ragging practice active in college?",
+            "Does college have any anti-ragging facility?",
+            "Is there any ragging cases?",
+            "Is ragging done here?",
+            "Ragging against",
+            "Anti-ragging facility",
+            "Ragging juniors",
+            "Ragging history",
+            "Ragging incidents"
+         ],
+         "responses": [
+            "GVSU has a zero-tolerance policy against any form of harassment, including ragging. If you face or witness such incidents, report to the student affairs department immediately: <a target=\"_blank\" href=\"https://www.gvsu.edu/studentsupport/\">Student Support</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "hod",
+         "patterns": [
+            "HOD",
+            "HOD name",
+            "Who is the HOD?",
+            "Head of department"
+         ],
+         "responses": [
+            "The Head of Department (HOD) varies by department. Please specify your department, e.g., 'HOD IT.' For more details, visit: <a target=\"_blank\" href=\"https://www.gvsu.edu/academics/\">Department Listings</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "admission",
+         "patterns": [
+           "How can I apply to GVSU?",
+           "What is the admission process?",
+           "Admission details",
+           "Apply to GVSU",
+           "What are the requirements for admission?"
+         ],
+         "responses": [
+           "You can apply to GVSU online via our application portal. Check the steps and requirements here: <a target=\"_blank\" href=\"https://www.gvsu.edu/admissions/\">Admission Process</a>."
+         ],
+         "context_set": ""
+       }
+       
+      {
+         "tag": "hostel",
+         "patterns": [
+            "Does GVSU provide housing?",
+            "On-campus accommodation",
+            "Housing options at GVSU",
+            "Dorms at GVSU"
+         ],
+         "responses": [
+            "Yes, GVSU offers a variety of on-campus housing options for students. Learn more here: <a target=\"_blank\" href=\"https://www.gvsu.edu/housing/\">GVSU Housing</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "dean",
+         "patterns": [
+            "Who is the dean of GVSU?",
+            "Dean of academics",
+            "Contact details of the dean",
+            "Who is the current dean?"
+         ],
+         "responses": [
+            "The Dean varies by department. You can find the list of deans and their contact information here: <a target=\"_blank\" href=\"https://www.gvsu.edu/directories/\">GVSU Directory</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "academics",
+         "patterns": [
+            "Academic programs at GVSU",
+            "What can I study at GVSU?",
+            "List of academic departments",
+            "Programs and courses"
+         ],
+         "responses": [
+            "GVSU offers a wide range of academic programs for undergraduate, graduate, and certificate studies. Explore more here: <a target=\"_blank\" href=\"https://www.gvsu.edu/academics/\">Academic Programs</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "contacts",
+         "patterns": [
+            "Contact details for GVSU",
+            "How can I reach GVSU?",
+            "Phone number for the university",
+            "GVSU email"
+         ],
+         "responses": [
+            "You can contact GVSU at (616) 331-5000. For specific department contacts, visit: <a target=\"_blank\" href=\"https://www.gvsu.edu/contactus/\">Contact Information</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "locations",
+         "patterns": [
+            "Where is GVSU located?",
+            "Campus locations",
+            "Directions to GVSU",
+            "How do I find the GVSU campus?"
+         ],
+         "responses": [
+            "GVSU's main campus is located at 1 Campus Dr, Allendale, MI 49401. For other campus locations and directions, visit: <a target=\"_blank\" href=\"https://www.gvsu.edu/maps.htm\">Campus Maps</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "fee",
+         "patterns": [
+            "How much does it cost to study at GVSU?",
+            "What are the tuition fees?",
+            "Cost of attendance at GVSU",
+            "Fee structure"
+         ],
+         "responses": [
+            "Detailed information on tuition, fees, and cost of attendance can be found here: <a target=\"_blank\" href=\"https://www.gvsu.edu/financialaid/costs-and-tuition-85.htm\">Fees and Costs</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "accounts",
+         "patterns": [
+            "How do I access my student account?",
+            "GVSU account portal",
+            "How to pay fees online?",
+            "Access accounts section"
+         ],
+         "responses": [
+            "You can access your student account and pay fees via the myBanner portal: <a target=\"_blank\" href=\"https://mybanner.gvsu.edu/\">myBanner Login</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "classes",
+         "patterns": [
+            "What classes are available?",
+            "How do I find class schedules?",
+            "Class timings at GVSU",
+            "Available courses this semester"
+         ],
+         "responses": [
+            "You can view class schedules and course availability here: <a target=\"_blank\" href=\"https://www.gvsu.edu/schedule/\">Class Schedule</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "register",
+         "patterns": [
+            "How do I register for classes?",
+            "Registering for courses",
+            "Enrollment process",
+            "How to add or drop classes?"
+         ],
+         "responses": [
+            "To register for classes, log in to the myBanner portal and follow the registration instructions: <a target=\"_blank\" href=\"https://www.gvsu.edu/registrar/registration-process.htm\">Registration Process</a>."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "help",
+         "patterns": [
+            "What can you do?",
+            "How can you assist me?",
+            "Help me get started",
+            "List of commands"
+         ],
+         "responses": [
+            "I can help you with queries about admissions, academics, fees, events, housing, and more at GVSU. Try asking questions like:\n- 'What courses are offered at GVSU?'\n- 'How do I apply for housing?'\n- 'Where is the library located?'\nFor more information, just ask!"
+         ],
+         "context_set": ""
+      }
+   ]
+}
